@@ -1,0 +1,61 @@
+body {
+    background: url("../img/parking3.jpg")no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.inscription{
+    
+    background-color: rgba(34, 61, 101, 0.66);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+.inscription-header{
+    
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    color: dodgerblue;
+    text-transform: uppercase;
+     box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+}
+.inscription label {
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-weight: bold;
+    text-align:left;
+}
+.inscription input {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    font-size: .9em;
+    color: #3095b5;
+}
+.inscription button {
+    padding: 10px;
+    width: 100%;
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    background-color: rgba(43, 192, 199, 0.8);
+    cursor:pointer;
+    
+}
