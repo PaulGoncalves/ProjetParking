@@ -1,0 +1,17 @@
+.header-distributed h3{
+    
+	color:  #53D39F;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+    float: left;
+}
+
+.header-distributed h3 span{
+    color:  #ffffff;
+     float: left;
+}
+.navbar-right p{
+    margin: 16px 0px -32px -327px;
+    color: #9d9d99;
+
+}

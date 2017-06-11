@@ -1,0 +1,700 @@
+/*MENU*/
+.nav>li {
+    position: relative;
+    display: block;
+}
+.historique{
+	font-weight: bold;
+}
+.bs-docs-sidebar .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #767676;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.428571;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    letter-spacing: 1px;
+    color: black;
+}
+
+/*login*/
+.container{
+    padding-top: 70px;
+}
+
+.thumbnail img:hover{
+    transform: scale(1.2);
+}
+.thumbnail img{
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.thumbnail{
+    border:none;
+    overflow: hidden;
+}
+.row {
+    margin-bottom: 3em;
+}
+.panel-login {
+    
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 4px 6px 10px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+#register-form-link:hover{
+    color: red;
+}
+/* Footer */
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 10px 50px;
+	margin-top: 122px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+/*INSCRIPTION*/
+.well .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+/*RESERVATION*/
+.l-container {
+    width: 100%;
+    max-width: 1004px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 168px;
+}
+.reservation{
+margin-top: 106px;
+}
+.o-btn--primary {
+    background-color: #34b5e4;
+    border-color: #34b5e4;
+    color: white;
+}
+.o-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+}
+p.lienAfficher{
+	color: white;
+}
+.u-reader {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+input[type="text"] {
+    line-height: 49px;
+    height: 49px;
+    font-size: 12px;
+}
+.c-search button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+ button{
+	border-radius: 13px;
+} 
+.c-search>div {
+    float: left;
+}
+@media (min-width: 768px)
+.c-cover .c-search.is-visible {
+    display: inline-block;
+}
+@media (min-width: 768px)
+.c-cover .c-search {
+    margin-top: 20px;
+}
+.c-cover .c-search, .c-cover .c-search__swippe {
+    display: none;
+}
+.c-search {
+    background-color: white;
+    border-radius: 30px;
+}
+.is-visible input{
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+     font: inherit;
+    color: inherit;
+    border-radius: 0;
+}
+.c-search input {
+    padding: 0 5px;
+    border: none;
+}
+.c-search>div {
+    float: left;
+}
+@media (min-width: 960px)
+.c-search__date {
+    padding-right: 20px;
+}
+.c-search__line label{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+@media (min-width: 960px)
+.c-search__date input {
+    width: 160px;
+}
+.c-search input {
+    padding: 0 5px;
+    border: none;
+}
+.c-search svg {
+    color: #34b5e4;
+}
+svg {
+    fill: currentColor;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #53D39F;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #53D39F;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+.footer-icons a:hover{
+    background-color: #39926E;
+    transition: all 0.45s;
+	opacity: 0.9;
+	filter:alpha (opacity=90);
+}
+
+.header-distributed h3{
+    
+	color:  #53D39F;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+    float: left;
+}
+
+.header-distributed h3 span{
+    color:  #ffffff;
+     float: left;
+}
+/* Inscription*/
+
+.modal-header h4{
+    text-align: center;
+    font-weight: bold;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+    background-color: #59B2E0;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.btn-primary {
+    background-color: #88C8FF;
+    border-color: #88C8FF;
+}
+.btn-primary:hover {
+    transition: all 0.45s;
+	opacity: 0.9;
+	filter:alpha (opacity=90);
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.btn-success {
+    background-color: #86D886;
+    border-color: #86D886;
+}
+.btn-success:hover {
+     transition: all 0.45s;
+	opacity: 0.9;
+	filter:alpha (opacity=90);
+    background-color: #3F943F;
+    border-color:#3F943F;
+}
+/*CONTACT*/
+.trans{
+opacity: 0.9;
+}
+    .trans .well {
+    border-radius: 47px;
+    }
+.well legend{
+    letter-spacing: 3pt;
+    text-align: center;
+}
+.body {
+    background: url("../img/parking.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+
+}
+.titre{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+    line-height: 2.8em;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+p{
+    color: #847c7c;
+}
+a:hover {
+    color: indianred;
+}
+
+.container {
+    margin: 0;
+    
+}
+
+.login-box {
+    background-color:rgba(30,30,80,0.6);
+    max-width: 340px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+   
+    box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+    text-align: center;
+
+}
+
+.login-box .box-header {
+    background-color: rgba(117, 25, 25, 0.47);
+    margin-top: 0;
+   
+    opacity: 0.9;
+}
+
+.login-box label {
+    font-size: 1em;
+    color: #ccc;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.login-box input {
+    background-color: rgba(30,30,80,0.6);
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid rgb(47, 61, 111);
+    border-radius: 2px;
+    font-size: .9em;
+    color: indianred;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #ccc;
+    transition: 0.5s;
+    color: #ccc;
+}
+.login-box i{
+    color: #ccc;
+}
+
+.login-box button {
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    background-color: rgba(113, 22, 22, 0.75);
+    cursor:pointer;
+    outline: none;
+}
+
+.login-box button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.login-box button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.selected {
+    color: #11310a!important;
+    transition: 0.5s;
+}
+body {
+    background: url("../img/parking3.jpg")no-repeat center center fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.inscription{
+    
+    background-color: rgba(34, 61, 101, 0.66);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+   
+}
+.inscription-header{
+    
+    text-align: center;
+    margin: auto;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    color: dodgerblue;
+    text-transform: uppercase;
+     box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+}
+.inscription label {
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-weight: bold;
+    text-align:left;
+}
+.inscription input {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    font-size: .9em;
+    color: #3095b5;
+}
+.inscription button {
+    padding: 10px;
+    width: 100%;
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    background-color: rgba(43, 192, 199, 0.8);
+    cursor:pointer;
+    
+}
